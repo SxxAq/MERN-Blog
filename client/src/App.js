@@ -1,16 +1,13 @@
-import './App.css';
+import "./App.css";
+import Entry from "./components/Body/Entry";
+import Header from "./components/header/Header";
 
 function App() {
   return (
-   <main>
-   <header>
-   <a href='' className='logo'>MERN-Blog</a>
-   <nav>
-   <a href=''>Login</a>
-   <a href=''>Register</a>
-   </nav>
-   </header>
-   </main>
+    <>
+      <Header></Header>
+      <Entry></Entry>
+    </>
   );
 }
 

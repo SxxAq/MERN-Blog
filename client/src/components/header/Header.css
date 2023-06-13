@@ -1,0 +1,22 @@
+.Navbar {
+    padding:0 2.5rem;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+  }
+  header a{
+    text-decoration: none;
+    color: inherit;
+  }
+  header a.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  header nav {
+    display: flex;
+    gap: 2rem;
+  }
+  
