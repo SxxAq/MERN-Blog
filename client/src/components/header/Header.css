@@ -1,7 +1,7 @@
 .Navbar {
     padding:0 2.5rem;
-    max-width: 80%;
-    margin: 0 auto;
+    
+    margin: 1rem 2rem;
   }
   header{
     display: flex;

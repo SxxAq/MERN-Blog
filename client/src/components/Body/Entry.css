@@ -1,0 +1,22 @@
+.posts {
+  display: flex;
+  flex-direction: column;
+}
+.post img {
+  width: 100vh;
+  display: block;
+  margin: 0 auto;
+}
+
+.posts .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0.5rem 5rem;
+}
+.posts .content p {
+  margin: 0.5rem 5rem 1rem;
+  font-size: 0.9rem;
+}
